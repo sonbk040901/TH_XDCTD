@@ -1,0 +1,15 @@
+Program Example1; (* Example 1 *)
+Const 
+ str = "Viet nhat";
+ f = 1.01;
+Var
+ j : float;
+ str : array [10] of char;
+ i : integer;
+Begin
+ str += a + "(a+3);
+ i *= 4.;
+ i += "ni";
+ i -= 4 + 5;
+ i /= 4 + 5;
+End. (* Example 1 *)

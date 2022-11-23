@@ -1,0 +1,13 @@
+{
+    "files.associations": {
+        "jrb.h": "c",
+        "jval.h": "c",
+        "stdio.h": "c",
+        "string.h": "c",
+        "cstdlib": "c",
+        "dllist.h": "c",
+        "fields.h": "c",
+        "stdlib.h": "c"
+    },
+    "git.ignoreLimitWarning": true
+}

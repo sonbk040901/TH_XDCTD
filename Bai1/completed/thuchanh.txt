@@ -1,0 +1,21 @@
+BAI THUC HANH SO 1
+THAO TAC TREN GCC
+
+Doc mot tep van ban tep mau o day la vanban txt Hay lap mot bang chi dan Index cho tep van ban 
+Bang chi dan liet ke tat ca cac tu xuat hien trong van ban moi tu mot lan va chi ra so cua dong xuat hien tu do
+
+Vi du
+
+answer 7 8 12 15
+ant 2 4 6
+baby 7 9 21
+cruel 2 4 5
+
+Chu y
+ Tu la nhung day chu cai phan biet nho khoang trong hay dau phan cach Khong phan biet chu hoa chu thuong Khi dua vao chi so phai chuyen tat ca cac ky tu thanh chu thuong
+ Cac tu phai duoc sap xep theo thu tu tu dien 
+ Gia su so muc tu xuat hien trong van ban khong lon nen co the luu tru trong mot mang 
+ Khong dua vao bang chi dan
+ Nhung tu khong co y nghia de tra cuu Danh sach cac tu do duoc luu tru trong tep stopw txt moi muc tu tren mot dong Danh sach nay cung khong lon nen co the doc vao mot mang 
+ Nhung danh tu rieng tuc la nhung tu chua chu cai dau la chu hoa nhung khong dung sau dau cham cau 
+ Danh sach cac dong ma moi muc tu xuat hien co the chua trong mot xau ky tu

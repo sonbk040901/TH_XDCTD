@@ -1,0 +1,13 @@
+{
+    "files.associations": {
+        "error.h": "c",
+        "debug.h": "c",
+        "parser.h": "c",
+        "scanner.h": "c",
+        "reader.h": "c",
+        "semantics.h": "c",
+        "typeinfo": "c",
+        "stdlib.h": "c",
+        "string.h": "c"
+    }
+}

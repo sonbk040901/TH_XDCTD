@@ -1,0 +1,21 @@
+Program UocChungLonNhat; (*Le Duc Son 20194658*)
+
+Var A: Array [8] of Integer;
+    tmp: Integer;
+    i: Integer;
+	error: Integer;
+
+function ucln(x: integer;y:integer):integer;
+begin
+    if x = y then
+        ucln:=x
+    else if x > y then
+ucln    :=ucln(x mod y,y)
+else
+ucln:=ucln(x, y mod x);
+end;
+var x,y:integer;
+begin
+readln(x,y);
+write('Ước chung lớn nhất là: ', UCLN(x,y), ' Bội chung nhỏ nhất là: ', (x*y) div UCLN(x,y));
+end.

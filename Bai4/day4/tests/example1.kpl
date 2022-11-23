@@ -1,0 +1,16 @@
+Program Example1; (* Example 1 *)
+const
+h = 1;
+j = 0.9;
+m = 6;
+VAR
+str : array [5] of char;
+str1 : array [4] of char;
+i : integer;
+K : float;
+Begin
+    i := READI;
+    str := "READI";
+    k := j;
+    k := 0.9;
+End. (* Example 1 *)

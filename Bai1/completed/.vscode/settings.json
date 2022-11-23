@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "stdbool.h": "c",
+        "lkd.h": "c",
+        "cstdio": "c",
+        "type_traits": "c"
+    }
+}

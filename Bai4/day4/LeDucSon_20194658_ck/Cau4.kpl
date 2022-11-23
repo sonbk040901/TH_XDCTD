@@ -1,0 +1,43 @@
+Program UocChungLonNhat; (*Luong Thi Tam 20194663*)
+
+Var A: Array [8] of Integer;
+    tmp: Integer;
+    i: Integer;
+	error: Integer;
+
+Function UCLN(a:Integer; b:Integer) : Integer;
+    Begin
+        If a = 0 Then UCLN := b;
+        If b = 0 Then UCLN := a;
+        If a != 0 Then
+            If b != 0 Then
+                Begin
+                    While a != b Do
+                        Begin
+                            If a > b Then a := a - b
+                            Else b := b - a;
+                        End;
+                    UCLN := a;
+                End;
+        If a = 0 Then
+            If b = 0 Then
+                error := 1; (* loi ca a va b deu bang 0 *)
+    End;
+Begin
+    A[1] := 2;
+    A[2] := 0;
+    A[3] := 1;
+    A[4] := 9;
+    A[5] := 4;
+    A[6] := 6;
+    A[7] := 6;
+    A[8] := 3;
+    error := 0;
+    tmp :=  UCLN(A[1], A[2]);
+    For i:= 3 To 8 Do
+        Begin
+            tmp := UCLN(tmp, A[i]);
+        End;
+    If error = 0 Then Call WRITEI(tmp)
+    Else Call WRITEC('e'); (* thong bao loi *)
+End.
